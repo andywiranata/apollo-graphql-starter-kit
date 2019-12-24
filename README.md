@@ -3,7 +3,13 @@
 
 ## Features at a glance
 
-Run the following command to download the repo and unpack it into `apollo-graphql-starter-kit/`.
+* Use Apollo Graphql (https://www.apollographql.com/)
+* Add sample Firebase Admin for Authentication.
+* Add sample cache redis / in memory cahe (https://github.com/apollographql/apollo-server/tree/master/packages/apollo-datasource-rest)
+* Yaml based model for configuration development, staging and production.
+* Add sample newrelic.
+* Add sample logger (https://github.com/winstonjs/winston).
+* Use es6 syntax and babel :D
 
 ## Building
 
@@ -12,29 +18,26 @@ The following command will install all Node.js dependencies. Once all dependenci
 ```bash
 $ npm install
 ```
-
-Development:
-
+run for local development:
 ```bash
 $ npm run dev
 ```
+Once the application is running it can be accessed at <http://localhost:8080/graphql/>.
 
 build
-
 ```bash
 $ npm run build
+$ export NODE_ENV=development
+$ npm start
 ```
+Adjust NODE_ENV for production/development/staging, more detail in config/application.yml
 
-Once the application is running it can be accessed at <http://localhost:8080/>.
 
-
-## Testing
+## Testing Eslint and Mocha
 
 ```bash
-$ npm run test
+$ npm run test 
+$ npm run test:mocha
 ```
-
-
-## Demo
 
 
