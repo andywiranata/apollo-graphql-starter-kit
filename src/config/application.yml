@@ -1,0 +1,35 @@
+localDevelopment:
+  appolloEngineAppKey: service:dev-cons-api:t7yr7fAjhJE_8nNIff9xkA
+  playground: true
+  demoService:
+    baseUri: https://andywiranata-42555.firebaseio.com/
+  firebase:
+    serviceAcc: firebase-admins.json
+  redis:
+    host: xx.xx.xx.xx
+development:
+  appolloEngineAppKey: xx
+  playground: true
+  demoService:
+   baseUri: https://andywiranata-42555.firebaseio.com/
+  redis:
+    host: xx.xx.xx.xx
+staging:
+  appolloEngineAppKey: xxx
+  playground: true
+  demoService:
+    baseUri: https://andywiranata-42555.firebaseio.com/
+  redis:
+    host: xx.xx.xx.xx
+production:
+  appolloEngineAppKey: xxx
+  playground: false
+  demoService:
+    baseUri: https://andywiranata-42555.firebaseio.com/
+  redis:
+    host: xx.xx.xx.xx
+api:
+  demo:
+    name:
+      uri: /name.json?test={0}
+      method: GET
