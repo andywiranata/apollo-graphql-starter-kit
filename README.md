@@ -22,6 +22,12 @@ run for local development:
 ```bash
 $ npm run dev
 ```
+
+run for local development with debug:
+```bash
+$ npm run dev-debug
+```
+
 Once the application is running it can be accessed at <http://localhost:8080/graphql/>.
 
 build
@@ -32,6 +38,7 @@ $ npm start
 ```
 Adjust NODE_ENV for production/development/staging, more detail in config/application.yml
 
+please check package.json for detail configuration
 
 ## Testing Eslint and Mocha
 
@@ -40,4 +47,8 @@ $ npm run test
 $ npm run test:mocha
 ```
 
-
+## Environtment Variabel
+* NODE_ENV (development, staging and production)
+* NEWRELIC_LICENSE_KEY
+* NEWRELIC_APP_NAME
+* USE_REDIS
