@@ -20,7 +20,7 @@ export default ({ firebaseInstance }) => {
         LOGGER.info('checking authorization...');
         if (!authorization) {
             // res401(res);
-            LOGGER.warning('checking authorization, no token found, it is only for demo purpose!!!!');
+            LOGGER.info('checking authorization, no token found, it is only for demo purpose!!!!');
             next();
         } else {
             LOGGER.info('checking authorization, use token...');

@@ -19,6 +19,8 @@ staging:
   playground: true
   demoService:
     baseUri: https://andywiranata-42555.firebaseio.com/
+  firebase:
+    serviceAcc: firebase-admins.json
   redis:
     host: xx.xx.xx.xx
 production:
@@ -26,6 +28,8 @@ production:
   playground: false
   demoService:
     baseUri: https://andywiranata-42555.firebaseio.com/
+  firebase:
+    serviceAcc: firebase-admins.json
   redis:
     host: xx.xx.xx.xx
 api:
