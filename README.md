@@ -13,7 +13,7 @@
 
 ## Building
 
-The following command will install all Node.js dependencies. Once all dependencies are installed it will run `npm run build` compiling Handlebars and Sass files.
+The following command will install all Node.js dependencies. Once all dependencies are installed it will run `npm run build`.
 
 ```bash
 $ npm install
